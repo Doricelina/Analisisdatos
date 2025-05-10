@@ -1,0 +1,99 @@
+h1 {
+  font-size: 4rem;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #2d89ef;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.buttons button {
+  padding: 15px 0;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.buttons button:hover {
+  background-color: #1b5fbb;
+}
+
+#imagen {
+  max-width: 90%;
+  max-height: 500px;
+  margin: 30px auto;
+  display: block;
+  border: 6px solid #4b9cd3; /* Borde azul personalizado */
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3), inset 0 0 8px rgba(255, 255, 255, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  background-color: #fff;
+}
+
+#imagen:hover {
+  transform: scale(1.03);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.5), inset 0 0 12px rgba(255, 255, 255, 0.2);
+  border-color: #2d89ef; /* Cambia a un tono más intenso al pasar el mouse */
+}
+
+
+* CSS Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footer a {
+    color: #f0c040;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-redes a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-redes a:hover {
+    color: #04AA6D; /* Cambia el color al pasar el mouse */
+  }
+
